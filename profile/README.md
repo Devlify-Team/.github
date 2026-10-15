@@ -58,6 +58,30 @@ Devlify Team builds web and mobile applications, business platforms, practical A
   </picture>
 </div>
 
+## Devlify Marketplace
+
+<div align="center">
+  <img src="./assets/devlify-marketplace-3d.png" width="100%" alt="A luminous 3D software storefront with floating web, mobile, and AI product cards." />
+</div>
+
+Devlify brings software buyers and developers together. Browse production-ready web, mobile, and AI systems, buy a ready-made build or license its source code, hire a developer, or commission a custom project. Listings show their technology stack and delivery method. Fixed-price purchases are available in naira through Paystack; custom work is scoped and quoted before it begins.
+
+<p align="center">
+  <a href="https://devlify.com.ng/marketplace">Browse the marketplace</a> &nbsp;·&nbsp;
+  <a href="https://devlify.com.ng/hire">Hire a developer</a> &nbsp;·&nbsp;
+  <a href="https://devlify.com.ng/services">Custom services</a> &nbsp;·&nbsp;
+  <a href="https://devlify.com.ng/about">About Devlify</a> &nbsp;·&nbsp;
+  <a href="https://devlify.com.ng/contact">Contact</a> &nbsp;·&nbsp;
+  <a href="mailto:contact@devlify.com.ng">Email Devlify</a>
+</p>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg" />
+    <img src="./assets/divider.svg" width="100%" alt="" />
+  </picture>
+</div>
+
 ## Explore Devlify
 
 - [Website](https://devlify.com.ng/)
