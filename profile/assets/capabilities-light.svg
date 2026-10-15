@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
+  <title id="title">What Devlify Team builds</title>
+  <desc id="desc">Four animated cards for web and mobile applications, business platforms and SaaS, APIs and data automation, and practical AI/ML and developer tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfdff"/><stop offset="1" stop-color="#f3f5fc"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#64748b" stop-opacity=".28"/><stop offset=".5" stop-color="#b78637" stop-opacity=".30"/><stop offset="1" stop-color="#0891b2" stop-opacity=".30"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b78637"/><stop offset="1" stop-color="#d0a85c"/></linearGradient>
+    <radialGradient id="spot"><stop offset="0" stop-color="#22d3ee" stop-opacity=".22"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <clipPath id="cards"><rect x="20" y="82" width="205" height="190" rx="20"/><rect x="240" y="82" width="205" height="190" rx="20"/><rect x="460" y="82" width="205" height="190" rx="20"/><rect x="680" y="82" width="200" height="190" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .spot{animation:spot 10s ease-in-out infinite alternate}.lift1{animation:lift 3.4s ease-in-out infinite}.lift2{animation:lift 3.4s ease-in-out .35s infinite}
+    .spin{transform-origin:42px 42px;animation:spin 18s linear infinite}.flow{animation:flow 1.8s linear infinite}.flow2{animation-delay:-.9s}.beat{transform-origin:center;animation:beat 2.4s ease-in-out infinite}
+    @keyframes spot{to{transform:translateX(620px)}}@keyframes lift{50%{transform:translateY(-3px)}}@keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes flow{to{stroke-dashoffset:-24}}@keyframes beat{50%{transform:scale(1.16)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect width="900" height="300" rx="28" fill="url(#bg)"/>
+  <text x="28" y="48" font-family="Georgia,'Times New Roman',serif" font-size="27" font-weight="600" fill="#172033">What we build</text>
+  <rect x="30" y="60" width="66" height="2.5" rx="1.2" fill="url(#gold)"/>
+  <text x="872" y="47" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#64748b">PRODUCTS / PLATFORMS / TOOLS</text>
+  <g><rect x="20" y="82" width="205" height="190" rx="20" fill="#f0f8fc"/><rect x="240" y="82" width="205" height="190" rx="20" fill="#f5f2fc"/><rect x="460" y="82" width="205" height="190" rx="20" fill="#f0f8fc"/><rect x="680" y="82" width="200" height="190" rx="20" fill="#f5f2fc"/></g>
+  <g clip-path="url(#cards)"><ellipse class="spot" cx="140" cy="175" rx="150" ry="115" fill="url(#spot)"/></g>
+  <g transform="translate(20 82)">
+    <rect x=".75" y=".75" width="203.5" height="188.5" rx="19.5" fill="none" stroke="#8bc7d7" stroke-width="1.5"/><path d="M24 1H181" stroke="#b78637" stroke-opacity=".5"/>
+    <rect x="18" y="17" width="48" height="48" rx="14" fill="#e2f5f8" stroke="#8bc7d7"/>
+    <g transform="translate(42 41)" fill="none" stroke="#0e7490" stroke-width="2"><rect x="-10" y="-15" width="20" height="30" rx="4"/><path d="M-5-10H5M-3 10H3" stroke-linecap="round"/><circle cx="0" cy="13" r="1" fill="#0e7490" stroke="none"/></g>
+    <text x="18" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#172033">Web &amp; mobile</text>
+    <text x="18" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">Applications for</text><text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">real-world needs</text><path d="M18 170H74" stroke="#0891b2" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(240 82)">
+    <rect x=".75" y=".75" width="203.5" height="188.5" rx="19.5" fill="none" stroke="#b8a7e6" stroke-width="1.5"/><path d="M24 1H181" stroke="#b78637" stroke-opacity=".5"/>
+    <rect x="18" y="17" width="48" height="48" rx="14" fill="#eee9fb" stroke="#b8a7e6"/>
+    <g transform="translate(42 41)" fill="none" stroke="#7c3aed" stroke-width="1.8" stroke-linejoin="round"><path class="lift2" d="M0-15 14-8 0-1-14-8Z"/><path class="lift1" d="M0-5 14 2 0 9-14 2Z"/><path d="M-14 8 0 15 14 8"/></g>
+    <text x="18" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#172033">Platforms &amp; SaaS</text>
+    <text x="18" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">Business platforms</text><text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">and SaaS products</text><path d="M18 170H74" stroke="#7c3aed" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(460 82)">
+    <rect x=".75" y=".75" width="203.5" height="188.5" rx="19.5" fill="none" stroke="#8bc7d7" stroke-width="1.5"/><path d="M24 1H181" stroke="#b78637" stroke-opacity=".5"/>
+    <rect x="18" y="17" width="48" height="48" rx="14" fill="#e2f5f8" stroke="#8bc7d7"/>
+    <g transform="translate(42 41)" fill="none" stroke="#0e7490" stroke-width="1.6"><path d="M-13-10 0 0 13-10M-13 10 0 0 13 10"/><path class="flow" d="M-13-10 0 0 13 10" stroke-dasharray="2 6" stroke-linecap="round"/><path class="flow flow2" d="M-13 10 0 0 13-10" stroke-dasharray="2 6" stroke-linecap="round"/><circle cx="-13" cy="-10" r="3" fill="#fff"/><circle cx="-13" cy="10" r="3" fill="#fff"/><circle cx="13" cy="-10" r="3" fill="#fff"/><circle cx="13" cy="10" r="3" fill="#fff"/><circle class="beat" r="4" fill="#0891b2" stroke="none"/></g>
+    <text x="18" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#172033">APIs &amp; data</text>
+    <text x="18" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">Systems, databases,</text><text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">and automation</text><path d="M18 170H74" stroke="#0891b2" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(680 82)">
+    <rect x=".75" y=".75" width="198.5" height="188.5" rx="19.5" fill="none" stroke="#b8a7e6" stroke-width="1.5"/><path d="M24 1H176" stroke="#b78637" stroke-opacity=".5"/>
+    <rect x="18" y="17" width="48" height="48" rx="14" fill="#eee9fb" stroke="#b8a7e6"/>
+    <g transform="translate(42 41)"><g class="spin" fill="none" stroke="#7c3aed" stroke-width="1.6"><circle r="14" stroke-dasharray="2 5"/><ellipse rx="6" ry="14"/><ellipse rx="14" ry="6"/></g><circle class="beat" r="4" fill="#0891b2"/></g>
+    <text x="18" y="100" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#172033">AI/ML &amp; tools</text>
+    <text x="18" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">Practical features</text><text x="18" y="149" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#58677d">and developer tools</text><path d="M18 170H74" stroke="#7c3aed" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <rect x=".75" y=".75" width="898.5" height="298.5" rx="27.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>
